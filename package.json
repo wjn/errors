@@ -1,5 +1,5 @@
 {
-  "name": "errors",
+  "name": "@nielsendigital/errors",
   "version": "1.0.1",
   "description": "TypeScript Custom Error classes",
   "main": "./build/index.js",
