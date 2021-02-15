@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/wjn/errors#readme",
   "dependencies": {
-    "@nielsendigital/logit": "^1.0.2"
+    "@nielsendigital/logit": "^1.0.2",
+    "express-validator": "^6.9.2"
   },
   "devDependencies": {
     "del-cli": "^3.0.1",
