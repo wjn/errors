@@ -1,0 +1,35 @@
+{
+  "name": "errors",
+  "version": "1.0.0",
+  "description": "TypeScript Custom Error classes",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "pub": "npm version patch && npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjn/errors.git"
+  },
+  "keywords": [
+    "Errors"
+  ],
+  "author": "Will Nielsen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wjn/errors/issues"
+  },
+  "homepage": "https://github.com/wjn/errors#readme",
+  "dependencies": {
+    "@nielsendigital/logit": "^1.0.2"
+  },
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "typescript": "^4.1.5"
+  }
+}
